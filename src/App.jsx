@@ -1,12 +1,9 @@
-
+import { ExpenseItem } from './components/ExpenseItem'
 
 function App() {
-
   return (
-    <div className="App">
-    Hello world
-    <p>added paragraph</p>
-    <p>added paragraph</p>
+    <div className='App'>
+      <ExpenseItem />
     </div>
   )
 }
